@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>PTW</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="style.css"
+            />
+    </head>
+
+    <body style="background: #F7F8FA;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 p-3 pl-5" style="background-color: #FFFFFF;">
+                   <div class="row">
+                       <div class="col-sm-3">
+                           <img src="logo.png">
+                       </div>
+                       <div class="col-sm-5">
+                            <div class="input-group sbar" style="width: 55%;">
+                                <input
+                                    type="text"
+                                    class="form-control text-dark sbar-input fs-14"
+                                    placeholder="Search ..."
+                                />
+
+                                <div class="input-group-append">
+                                    <button style="border: none; outline: none; border-radius: 10px;">
+                                        &nbsp;
+                                        <img src="img/Search.png" style="width: 18.76px; height: 19.22px;" />
+                                        &nbsp;
+                                    </button>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="col-sm-4">
+                            <div class="mr-0">
+                                <div class="mt-1 mr-3 float-left">
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                    <img src="Group 713.png" style="width: 23px; height: 17.25px;" />
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                    <img src="img/French.png" style="width: 23px; height: 17.25px;" />
+                                </div>
+                                <div class="mt-1 mr-3 float-left">
+                                    <img src="img/notification.png" style="width: 17px; height: 21px;" />
+                                </div>
+                                <div class="navbar p-0 float-left profile-link" data-toggle="tab" style="cursor: pointer;">
+                                    <div class="mr-2">
+                                        <img src="Group 263.png" style=" width: 37px; height: 37px;" />
+                                    </div>
+                                    <div class="my-auto">
+                                        Bartlett Parmentier &nbsp;<i class="fa fa-chevron-down"></i>&nbsp;&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="d-flex pt-2 side-style">
+                    <ul id="tabsJustified" class="nav nav-pills flex-column" style="height: 742px;">
+                        
+
+                        <li class="nav-item">
+                            <a href="" id="permit-link" data-toggle="tab" class="nav-link small active cat text-font-normal">
+                                <img src="img/Work.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="img/Work (1).png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;Permit to Work
+                            </a>    
+                        </li>
+                        <li class="nav-item">
+                            <a href="" id="observation-link" data-toggle="tab" class="nav-link small cat text-font-normal">
+                                <img src="img/Group 716.png" style="width: 20px; height: 18px; display: none;" class="white-image" />
+                                <img src="img/Group 716.png" style="width: 20px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;Observation
+                            </a> 
+                        </li>
+                        <li class="nav-item">
+                            <a href="" id="workers-link" data-toggle="tab" class="nav-link small cat text-font-normal">
+                                <img src="img/3 User.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="img/3 User.png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;Workers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content p-0" style="width: 78.8%;">
+
+                    <div id="permit" class="pt-3">
+                        <div class="container-fluid">
+                            <div class="navbar pl-5 pr-1 pt-3 mr-0 pb-1" style="margin-left: -15px;">
+                                <div>
+                                    <input class="form-control br-10 border-0 daterange" style="display:unset; width:40%; height: 100%;" id="daterange" type="date" value="2018-01-01" />
+                                    &nbsp;&nbsp;&nbsp;
+                                    <img src="Group 67.png" />
+                                </div>
+                                <div>
+                                    <div class="navbar p-0">
+                                        <div class="mr-5 pr-3">
+                                            <img src="Filter 2.png">
+                                        </div>
+                                        <div class="ml-auto position-relative mr-0">
+                                            <input type="file" id="birthday" style="opacity: 0.0; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height:100%;" />
+                                            <img class="float-left mr-2" src="img/our clients/beneo/Vector.png" style="width: 21px; height: 21px;" />
+                                            <div class="float-left fs-12 mr-3">
+                                                Import csv file
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="row pl-5 pr-2 pb-1 pt-3">
+                                <div style="overflow-x: scroll; width: 100%;" id="style-2">
+                                    <table class="table tbl-csv fs-11">
+                                        <thead>
+                                            <tr>
+                                                <td scope="col" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">#ID</td>
+                                                <td scope="col">Status</td>
+                                                <td scope="col">Society</td>
+                                                <td scope="col">Type</td>
+                                                <td scope="col">Initiateur</td>
+                                                <td scope="col">Zone</td>
+                                                <td scope="col">Niveau</td>
+                                                <td scope="col">Equipment</td>
+                                                <td scope="col">Consignation</td>
+                                                <td scope="col">QR code</td>
+                                                <td scope="col" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                                                    <img src="img/our clients/beneo/Setting.png" />
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody style="max-height: 383px; overflow-y: auto;">
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#EF3C3C; height: 26px; width: 67px;">
+                                                        Close 
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#008CFF; height: 26px; width: 67px;">
+                                                        One shot
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z01</td>
+                                                <td class="fw-400">+4</td>
+                                                <td class="fw-400">Valve 01</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">233146755</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#FCF319; height: 26px; width: 67px;">
+                                                        Pending 
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#008CFF; height: 26px; width: 67px;">
+                                                        One shot
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z01</td>
+                                                <td class="fw-400">+4</td>
+                                                <td class="fw-400">Valve 01</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#EF3C3C; height: 26px; width: 67px;">
+                                                        Close 
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#008CFF; height: 26px; width: 67px;">
+                                                        One shot
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z01</td>
+                                                <td class="fw-400">+4</td>
+                                                <td class="fw-400">Valve 01</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#B4F32E; height: 26px; width: 67px;">
+                                                        Ongoing
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#FFC553; height: 26px; width: 67px;">
+                                                        Recurrent
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z50</td>
+                                                <td class="fw-400">+3</td>
+                                                <td class="fw-400">Robinet 07</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#FCF319; height: 26px; width: 67px;">
+                                                        Pending
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#008CFF; height: 26px; width: 67px;">
+                                                        One shot
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z25</td>
+                                                <td class="fw-400">+1</td>
+                                                <td class="fw-400">Robinet 02</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#EF3C3C; height: 26px; width: 67px;">
+                                                        Close 
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#FFC553; height: 26px; width: 67px;">
+                                                        Recurrent
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z01</td>
+                                                <td class="fw-400">+4</td>
+                                                <td class="fw-400">Valve 01</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                            <tr class=" fs-12">
+                                                <td class="fw-400">245178451</td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#B4F32E; height: 26px; width: 67px;">
+                                                        Ongoing
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400"><img src="iu.png" height="32px" width="73px"></td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#008CFF; height: 26px; width: 67px;">
+                                                        One shot
+                                                    </div>
+                                                </td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="1516540693104 1.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Christian COLLIN
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400">Z05</td>
+                                                <td class="fw-400">+2</td>
+                                                <td class="fw-400">Moteur 36</td>
+                                                <td scope="row" class="navbar p-0 pt-2">
+                                                    <div>
+                                                        <img src="Ellipse 3.png" style="border-radius: 50%;" width="36" height="36" />
+                                                    </div>
+                                                    <div class="mr-auto fs-11">
+                                                        &nbsp; Philippe Chaussée
+                                                    </div>
+                                                </td>
+                                                <td class="fw-400" style="color: #FFFFFF;">
+                                                    <div class="br-10 p-1 text-center" style="background:#615EFF; height: 26px; width: 67px;">
+                                                        Afficher
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <img src="img/our clients/beneo/Group 814.png" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    
+
+               
+               
+                </div>
+
+
+
+            </div>
+        
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+               
+                $("#permit").show(200);
+				
+                $("#permit-link").click(function(){
+                    
+                    $("#permit-sublinks").show(200);
+                    
+                });
+            });
+        </script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function () {
+                $("#birthday").datepicker({ dateFormat: "DD/MM/YYYY" });
+            });
+        </script>
+
+        <script>
+            $(document).ready(function(){ 
+                var options = [];
+                $( '.dropdown-menu a' ).on( 'click', function( event ) {
+                    
+                    var $target = $( event.currentTarget ), val = $target.attr( 'data-value' ), $inp = $target.find( 'input' ), idx;
+
+                    if ( ( idx = options.indexOf( val ) ) > -1 ) {
+                        options.splice( idx, 1 );
+                        setTimeout( function() { $inp.prop( 'checked', false ) }, 0);
+                    } else {
+                        options.push( val );
+                        setTimeout( function() { $inp.prop( 'checked', true ) }, 0);
+                    }
+
+                    $( event.target ).blur();
+                        
+                    console.log( options );
+                    return false;
+                });
+            });
+        </script>
+        
+
+        <!-- drag and drop file upload script -->
+        
+        <script>
+            var $fileInput = $('.drag-file-input');
+            var $droparea = $('.file-drop-area');
+
+            // highlight drag area
+            $fileInput.on('dragenter focus click', function() {
+            $droparea.addClass('is-active');
+            });
+
+            // back to normal state
+            $fileInput.on('dragleave blur drop', function() {
+            $droparea.removeClass('is-active');
+            });
+
+            // change inner text
+            $fileInput.on('change', function() {
+            var filesCount = $(this)[0].files.length;
+            var $textContainer = $(this).prev();
+
+            if (filesCount === 1) {
+                // if single file is selected, show file name
+                var fileName = $(this).val().split('\\').pop();
+                $textContainer.text(fileName);
+            } else {
+                // otherwise show number of files
+                $textContainer.text(filesCount + ' files selected');
+            }
+            });
+        </script>
+
+<script>
+        
+    if($('#test').is(":checked")) {
+        $('.changeme').removeClass('red');
+    } else {
+        $('.changeme').addClass('red');
+    }
+$('#test').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme').removeClass('red');
+    } else {
+        $('.changeme').addClass('red');
+    }
+});
+
+if($('#test1').is(":checked")) {
+        $('.changeme1').removeClass('red');
+    } else {
+        $('.changeme1').addClass('red');
+    }
+$('#test1').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme1').removeClass('red');
+    } else {
+        $('.changeme1').addClass('red');
+    }
+});
+
+if($('#test2').is(":checked")) {
+        $('.changeme2').removeClass('red');
+    } else {
+        $('.changeme2').addClass('red');
+    }
+$('#test2').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme2').removeClass('red');
+    } else {
+        $('.changeme2').addClass('red');
+    }
+});
+
+    if($('#test3').is(":checked")) {
+        $('.changeme3').removeClass('red');
+    } else {
+        $('.changeme3').addClass('red');
+    }
+$('#test3').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme3').removeClass('red');
+    } else {
+        $('.changeme3').addClass('red');
+    }
+});
+
+    if($('#test4').is(":checked")) {
+        $('.changeme4').removeClass('red');
+    } else {
+        $('.changeme4').addClass('red');
+    }
+$('#test4').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme4').removeClass('red');
+    } else {
+        $('.changeme4').addClass('red');
+    }
+});
+
+
+
+    if($('#test5').is(":checked")) {
+        $('.changeme5').removeClass('red');
+    } else {
+        $('.changeme5').addClass('red');
+    }
+$('#test5').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme5').removeClass('red');
+    } else {
+        $('.changeme5').addClass('red');
+    }
+});
+
+    if($('#test6').is(":checked")) {
+        $('.changeme6').removeClass('red');
+    } else {
+        $('.changeme6').addClass('red');
+    }
+$('#test6').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme6').removeClass('red');
+    } else {
+        $('.changeme6').addClass('red');
+    }
+});
+
+
+
+    if($('#test7').is(":checked")) {
+        $('.changeme7').removeClass('red');
+    } else {
+        $('.changeme7').addClass('red');
+    }
+$('#test7').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme7').removeClass('red');
+    } else {
+        $('.changeme7').addClass('red');
+    }
+});
+
+
+    if($('#test8').is(":checked")) {
+        $('.changeme8').removeClass('red');
+    } else {
+        $('.changeme8').addClass('red');
+    }
+$('#test8').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme8').removeClass('red');
+    } else {
+        $('.changeme8').addClass('red');
+    }
+});
+
+
+if($('#test9').is(":checked")) {
+        $('.changeme9').removeClass('red');
+    } else {
+        $('.changeme9').addClass('red');
+    }
+$('#test9').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme9').removeClass('red');
+    } else {
+        $('.changeme9').addClass('red');
+    }
+});
+
+
+if($('#test10').is(":checked")) {
+        $('.changeme10').removeClass('red');
+    } else {
+        $('.changeme10').addClass('red');
+    }
+$('#test10').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme10').removeClass('red');
+    } else {
+        $('.changeme10').addClass('red');
+    }
+});
+
+
+
+
+if($('#test11').is(":checked")) {
+        $('.changeme11').removeClass('red');
+    } else {
+        $('.changeme11').addClass('red');
+    }
+$('#test11').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme11').removeClass('red');
+    } else {
+        $('.changeme11').addClass('red');
+    }
+});
+
+
+
+
+if($('#test12').is(":checked")) {
+        $('.changeme12').removeClass('red');
+    } else {
+        $('.changeme12').addClass('red');
+    }
+$('#test12').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme12').removeClass('red');
+    } else {
+        $('.changeme12').addClass('red');
+    }
+});
+
+
+
+
+if($('#test13').is(":checked")) {
+        $('.changeme13').removeClass('red');
+    } else {
+        $('.changeme13').addClass('red');
+    }
+$('#test13').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme13').removeClass('red');
+    } else {
+        $('.changeme13').addClass('red');
+    }
+});
+
+
+
+if($('#test14').is(":checked")) {
+        $('.changeme14').removeClass('red');
+    } else {
+        $('.changeme14').addClass('red');
+    }
+$('#test14').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme14').removeClass('red');
+    } else {
+        $('.changeme14').addClass('red');
+    }
+});
+
+
+if($('#test15').is(":checked")) {
+        $('.changeme15').removeClass('red');
+    } else {
+        $('.changeme15').addClass('red');
+    }
+$('#test15').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme15').removeClass('red');
+    } else {
+        $('.changeme15').addClass('red');
+    }
+});
+
+
+
+
+if($('#test16').is(":checked")) {
+        $('.changeme16').removeClass('red');
+    } else {
+        $('.changeme16').addClass('red');
+    }
+$('#test16').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme16').removeClass('red');
+    } else {
+        $('.changeme16').addClass('red');
+    }
+});
+
+
+
+if($('#test17').is(":checked")) {
+        $('.changeme17').removeClass('red');
+    } else {
+        $('.changeme17').addClass('red');
+    }
+$('#test17').change(function(){
+    if($(this).is(":checked")) {
+        $('.changeme17').removeClass('red');
+    } else {
+        $('.changeme17').addClass('red');
+    }
+});
+
+
+</script>
+
+        
+    </body>
+
+</html>
