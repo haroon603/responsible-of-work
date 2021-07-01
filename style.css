@@ -1,10 +1,80 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
+    overflow-x: hidden;
 }
+
 
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
+}
+
+.side-style {
+    border-right: 1px solid rgba(209, 209, 209, 0.5); 
+    width: 21.2%; 
+    padding-left: 25px;
+}
+#tabsJustified li {
+    margin-top: 3px;
+}
+#tabsJustified li:first-child {
+    margin-top: 15px;
+}
+#tabsJustified li .cat.active {
+    background: #615EFF !important;
+    min-width:max-content !important;
+    max-width: max-content !important;
+    padding-right: 50px !important;
+    border-radius: 10px !important;
+}
+#tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
+    color: #615EFF !important;
+    background: transparent !important;
+}
+
+#tabsJustified li a.active .black-image {
+    display: none;
+}
+
+#tabsJustified li a.active .white-image {
+    display:initial !important;
+}
+
+.text-font-normal {
+    font-weight: normal;
+    color: #200E32;
+}
+
+.text-font-500 {
+    font-weight: 500;
+}
+
+.cat {
+    font-size: 17px; 
+    line-height: 20px;
+    padding: 10px !important;
+    padding-left: 18px !important;
+}
+
+.sub-cat {
+    margin-left: 20px;
+    font-size: 15px; 
+    line-height: 18px;
+    padding: 10px !important;
+    padding-left: 22px !important;
+}
+
+.sub-cat-sub {
+    margin-left: 55px;
+    font-size: 13px; 
+    line-height: 15px;
+    padding: 5px !important;
+    padding-left: 24px !important;
+}
+
+.lum-logo {
+    width: 146px; 
+    height: 57px; 
 }
 
 .sbar {
@@ -26,34 +96,39 @@
 .sbar-input::placeholder {
     color: #B7B2BD;
 }
-.rotate {
-
-    /* Safari */
-    -webkit-transform: rotate(-90deg);
-    
-    /* Firefox */
-    -moz-transform: rotate(-90deg);
-    
-    /* IE */
-    -ms-transform: rotate(-90deg);
-    
-    /* Opera */
-    -o-transform: rotate(-90deg);
-    
-    
-    }
 
 .add-client-btn {
-    width: 114px !important; 
-    height: 41px !important; 
-    background: #FF3838 !important; 
-    font-size: 15px;
+    width: 224px; 
+    height: 49px; 
+    background: #615EFF !important; 
+    font-weight: 500;
+    font-size: 14px;
     line-height: 16px;
-    border-radius: 9px;
-    color: #ffffff;
-    border: none;
-    outline: none !important;
+    border-radius: 10px;
 }
+.add-client-btn1 {
+    width: 224px; 
+    height: 49px; 
+    color: #615EFF;
+    background: transparent !important; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 10px;
+    border: 2px solid #615EFF;
+}
+
+.box-height-240 {
+    height: 240px;
+}
+
+.client-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 20px;
+}
+
 
 
 .fs-12 {
@@ -87,10 +162,6 @@
     color: rgba(92, 87, 97, 0.83);
 }
 
-.tc-blue {
-    color: #615EFF;
-}
-
 .modal-header {
     border-bottom: none !important;
     border-radius: 15px;
@@ -121,11 +192,48 @@
 #clients div div div div ul li {
     width: 100%;
 }
-
+.table td, .table th {
+    border-top:none !important;
+}
 #clients div div div div ul li {
     width: 100%;
 }
+.tbl-csv td {
+    vertical-align: middle;
+}
+.tbl-csv {
+    min-width: 975px;
+    text-align: center;
+}
+.tbl-csv thead {
+    background-color: #ffffff;
+}
 
+
+
+.tbl-role td{
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #DEE2E6!important;
+}
+.tbl-role thead td{
+    border-bottom: none !important;
+}
+.tbl-role td:first-child {
+    background: transparent;
+    text-align: left !important;
+    margin-left: 30px;
+    border-bottom: none !important;
+}
+.tbl thead tr td {
+    padding-left: 25px;
+}
+.tbl tbody tr td {
+    padding: 25px;
+}
+.table tbody td {
+    background-color: transparent;
+}
 .h-35 {
     height: 35px !important;
 }
@@ -151,24 +259,6 @@
     max-height: 676px;
     width: 573px;
 }
-
-.checkbox-primary {
-    width: 26.5px !important;
-    height: 26.5px !important;
-}
-.checkbox-primary:checked:before {
-    color: black !important;
-    top: 0px !important;
-    left: 2.5px !important;
-    font-size: 17px !important;
-}
-.checkbox-primary:checked {
-    border: 2px solid black !important;
-}
-
-
-
-
 
 .checkbox {
     position: relative;
@@ -567,7 +657,13 @@ input:checked + .slider:before {
         line-height: 15px;
     }
 
-    
+    .tbl thead tr td {
+        padding-left: 15px;
+    }
+
+    .tbl tbody tr td {
+        padding: 15px;
+    }
 
     .set4{
         padding-right: 0 !important;
