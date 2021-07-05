@@ -637,6 +637,10 @@ input:checked + .slider:before {
         height: 180px;
     }
 
+    #set-wid{
+        width: 170px !important;
+    }
+
     .p-3 {
         padding: 10px !important;
     }
