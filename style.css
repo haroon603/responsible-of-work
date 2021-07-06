@@ -128,7 +128,10 @@
     margin-top: 20px;
 }
 
-
+.fs-11 {
+    font-size: 11px !important;
+    line-height: 13px !important;
+}
 
 .fs-12 {
     font-size: 12px;
@@ -475,11 +478,15 @@ input:checked + .slider:before {
     .box-height-240 {
         height: 220px;
     }
-    
+    .fs-11 {
+        font-size: 10px !important;
+        line-height: 11.5px !important;
+    }
     .fs-17 {
         font-size: 16px;
         line-height: 18px;
     }
+
 
     .sub-cat {
         font-size: 13px; 
@@ -577,6 +584,21 @@ input:checked + .slider:before {
     .col-sm-3 {
         padding: 05px !important;
     }
+
+    .pd-inp {
+        padding: 3px !important;
+        padding-left: 6px !important;
+        height: 31px !important;
+    }
+    .pd-sel {
+        padding: 2px !important;
+        height: 30px !important;
+    }
+
+    .fs-11 {
+        font-size: 9px !important;
+        line-height: 11px !important;
+    }
     
     .fs-12 {
         font-size: 10px;
@@ -604,6 +626,15 @@ input:checked + .slider:before {
         font-size: 13px; 
         line-height: 15px;
         padding: 10px !important;
+    }
+    .pd-inp {
+        padding: 2px !important;
+        padding-left: 4px !important;
+        height: 26px !important;
+    }
+    .pd-sel {
+        padding: 0px !important;
+        height: 25px !important;
     }
     
     #tabsJustified li {
@@ -691,6 +722,10 @@ input:checked + .slider:before {
 
     .p-3 {
         padding: 10px !important;
+    }
+    .fs-11 {
+        font-size: 7px !important;
+        line-height: 9px !important;
     }
     
     .fs-12 {
