@@ -22,86 +22,83 @@
     <body style="background: #F7F8FA;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 p-3 pl-5" style="background-color: #FFFFFF;">
-                   <div class="row">
-                       <div class="col-sm-3">
-                           <img src="logo.png">
-                       </div>
-                       <div class="col-sm-5">
-                            <div class="input-group sbar" style="width: 55%;">
-                                <input
-                                    type="text"
-                                    class="form-control text-dark sbar-input fs-14"
-                                    placeholder="Search ..."
-                                />
-
-                                <div class="input-group-append">
-                                    <button style="border: none; outline: none; border-radius: 10px;">
-                                        &nbsp;
-                                        <img src="img/Search.png" style="width: 18.76px; height: 19.22px;" />
-                                        &nbsp;
-                                    </button>
-                                </div>
+                <nav class="navbar w-100 bg-white" style="padding-left: 3.056%; padding-right: 3.056%; padding-top: 14px; padding-bottom: 14px;">
+                    <img src="logo.png  " width="99" height="37" />
+                    <div style="width: 40.5%; display: flex;">
+                        <div class="input-group sbar" style="height: 42px; width: 68%; margin-right: 33.08%;">
+                            <input
+                                type="text"
+                                class="form-control text-dark sbar-input fs-14"
+                                placeholder="Search ..."
+                            />
+            
+                            <div class="input-group-append">
+                                <button style="border: none; outline: none; border-radius: 10px;">
+                                    &nbsp;
+                                    <img src="./img/Search.png" />
+                                    &nbsp;
+                                </button>
                             </div>
-                       </div>
-                       <div class="col-sm-4" id="move">
-                            <div class="navbar p-0">
-                                
-                                <div class="mt-1 float-left">
-                                    <img src="Group 713.png" style="width: 23px; height: 17.25px;" />
-                                </div>
-                                <div class="mt-1 float-left">
-                                    <img src="img/French.png" style="width: 23px; height: 17.25px;" />
-                                </div>
-                                <div class="mt-1 float-left">
-                                    <img src="img/notification.png" style="width: 17px; height: 21px;" />
-                                </div>
-                                <div class="navbar p-0 float-left profile-link" data-toggle="tab" style="cursor: pointer;">
-                                    <div class="mr-2">
-                                        <img src="Group 263.png" style=" width: 37px; height: 37px;" />
-                                    </div>
-                                    <div class="my-auto fs-12">
-                                        Bartlett Parmentier &nbsp;<i class="fa fa-chevron-down"></i>&nbsp;&nbsp;
-                                    </div>
-                                </div>
+                        </div>
+                       
+                    </div>
+        
+                    <div id="move">
+                        <div class="mt-1 mr-3 float-left">
+                            <img src="Group 713.png" style="width: 23px; height: 17.25px;" />
+                        </div>
+                        <div class="mt-1 mr-3 float-left">
+                            <img src="img/French.png" style="width: 23px; height: 17.25px;" />
+                        </div>
+        
+                        <div class="mt-1 mr-3 float-left">
+                            <img src="img/notification.png" style="width: 17px; height: 21px;" />
+                        </div>
+        
+                        <div class="navbar p-0 float-left profile-link" data-toggle="tab" style="cursor: pointer;">
+                            <div class="mr-2">
+                                <img src="img/Group 262.png" style=" width: 37px; height: 37px;" />
+                            </div>
+                            
+                            <div class="my-auto fs-12">
+                                Christian COLLIN &nbsp;<i class="fa fa-chevron-down"></i>&nbsp;&nbsp;
                             </div>
                         </div>
                     </div>
-                    
-                </div>
+                </nav>
 
 
-                <div class="d-flex pt-4 side-style">
-                    <ul id="tabsJustified" class="nav nav-pills flex-column" style="height: 742px;">
+                <div class="d-flex" style="width: 21.007%; border-right: 1px solid rgba(209, 209, 209, 0.5);">
+                    <ul id="tabsJustified" class="nav nav-pills flex-column" style="height: 742px; width: 100%; margin-left: 11.9%; margin-right: 11.9%; margin-top: 50px;">
                         
 
                         <li class="nav-item">
                             <a href="" id="permit-link" data-toggle="tab" class="nav-link small active cat text-font-normal">
                                 <img src="img/Work.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
                                 <img src="img/Work (1).png" style="width: 18px; height: 18px;" class="black-image" />
-                                &nbsp;&nbsp;Permit to Work
+                                &nbsp;&nbsp;<span class="fs-12-1">Permit to Work</span>
                             </a>    
                         </li>
                         <li class="nav-item">
                             <a href="" id="observation-link" data-toggle="tab" class="nav-link small cat text-font-normal">
                                 <img src="img/Group 716.png" style="width: 20px; height: 18px; display: none;" class="white-image" />
                                 <img src="img/Group 716.png" style="width: 20px; height: 18px;" class="black-image" />
-                                &nbsp;&nbsp;Observation
+                                &nbsp;&nbsp;<span class="fs-12-1">Observation</span>
                             </a> 
                         </li>
                         <li class="nav-item">
                             <a href="" id="workers-link" data-toggle="tab" class="nav-link small cat text-font-normal">
                                 <img src="img/3 User.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
                                 <img src="img/3 User.png" style="width: 18px; height: 18px;" class="black-image" />
-                                &nbsp;&nbsp;Workers
+                                &nbsp;&nbsp;<span class="fs-12-1">Workers</span>
                             </a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="tab-content p-0" style="width: 78.8%;">
+                <div class="tab-content p-0" style="width: 78.99%;">
 
-                    <div id="permit" class="pt-4">
+                    <div id="permit" style="margin-top: 50px;">
                         <div class="container-fluid set4">
                             <div class="navbar pl-5 pr-1 pt-3 mr-0 pb-1" style="margin-left: -15px;">
                                 <div id="set-wid" style="width: 229px; height: 54px; border-radius: 10px; color: #200E32;" class="bg-white">
@@ -116,7 +113,7 @@
                                 </div>
                                 <div>
                                     <div class="navbar p-0">
-                                        <div class="mr-5 pr-3 set4">
+                                        <div class="mr-2 pr-3 set4">
                                             <img src="Filter 2.png">
                                         </div>
                                         <div class="ml-auto position-relative mr-0">
@@ -137,17 +134,17 @@
                                 <div style="overflow-x: scroll; width: 100%;" id="style-2">
                                     <table class="table tbl-csv">
                                         <thead>
-                                            <tr>
+                                            <tr class="fs-12">
                                                 <td scope="col" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">#ID</td>
-                                                <td scope="col">Status <img src="Group 283.png"> </td>
-                                                <td scope="col">Society</td>
-                                                <td scope="col">Type</td>
-                                                <td scope="col">Initiateur</td>
-                                                <td scope="col">Zone</td>
-                                                <td scope="col">Niveau</td>
-                                                <td scope="col">Equipment</td>
-                                                <td scope="col">Consignation</td>
-                                                <td scope="col">QR code</td>
+                                                <td scope="col">STATUS <img class="pl-1" src="Group 283.png"> </td>
+                                                <td scope="col">SOCIETY</td>
+                                                <td scope="col">TYPE</td>
+                                                <td scope="col">INITIATEUR</td>
+                                                <td scope="col">ZONE</td>
+                                                <td scope="col">NIVEAU</td>
+                                                <td scope="col">EQUIPMENT</td>
+                                                <td scope="col">CONSIGNATION</td>
+                                                <td scope="col">QR CODE</td>
                                                 <td scope="col" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
                                                     <img src="Setting.png" />
                                                 </td>
@@ -486,8 +483,8 @@
                                                 Edit Profile
                                             </div>
                                             <div class="row">
-                                                <div class="col-sm-3 m-3">
-                                                    <div class="ml-4"
+                                                <div class="col-sm-3 m-3 mt-4">
+                                                    <div class="ml-4 img-90"
                                                         style="width: 123px; height: 123px; border-radius: 50%; background-repeat: no-repeat; background-size: 100%; background-image: url('1516540693104 2.png'); position: relative;">
                                                         <button class="btn-circle border-0"
                                                         style="background-color: #615EFF; width: 28px; height: 28px; border-radius: 50%; bottom:0px; right:16px; position:absolute;">
@@ -497,36 +494,36 @@
                                                 </div>
                                             </div>
 
-                                            <form id="myForm">
+                                            <form id="myForm" class="mt-3">
                                                 <div class="row">
                                                 <div class="col-sm-6">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">First name</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">First name</label>
                                                     <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Christian" style= "color: #200E32;box-sizing: border-box;border-radius: 8px;background-color:transparent;">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Last name</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Last name</label>
                                                     <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Collin" style= "color: #200E32; box-sizing: border-box;border-radius: 8px;background-color: transparent;">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Acronym</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Acronym</label>
                                                     <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="CCN" style= "color: #200E32; box-sizing: border-box;border-radius: 8px;background-color:transparent;">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="mb-3">
-                                                    <label class="form-label tc-grey">Date of birth</label>
+                                                    <label class="form-label tc-grey mb-3">Date of birth</label>
                                                     <input type="date" class="form-control fs-14 h-35 pd-inp" value="" style= "color: #200E32;box-sizing: border-box;border-radius: 8px;background-color:transparent;" />
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6" style="display: flex;">
                                                     <div style="width: 30%;">
                                                     <div class="mb-3">
-                                                        <label for="exampleFormControlInput1" class="form-label tc-grey">Phone</label>
+                                                        <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Phone</label>
                                                         <select class="form-control bg-transparent fs-14 pd-sel" style="border-radius: 8px; height:35px; min-width: max-content;">
                                                         <option>+35</option>
                                                         </select>
@@ -535,14 +532,14 @@
                                                     &nbsp;&nbsp;&nbsp;&nbsp;
                                                     <div>
                                                     <div class="mb-3">
-                                                        <label for="exampleFormControlInput1" class="form-label"> &nbsp;</label>
+                                                        <label for="exampleFormControlInput1" class="form-label mb-3"> &nbsp;</label>
                                                         <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="0 101 01 01" style= "color: #200E32; box-sizing: border-box;border-radius: 8px;background-color:transparent;">
                                                     </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Email</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Email</label>
                                                     <input type="email" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1"
                                                         placeholder="Doant.Mailhot@beneo.com" style=" box-sizing: border-box;border-radius: 8px;background-color: transparent;">
                                                     </div>
@@ -552,7 +549,7 @@
                                                 <div class="row">
                                                 <div class="col-sm-4">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Company</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Company</label>
                                                     <br>
                                                     <select class="form-control bg-transparent fs-14 pd-sel h-35" style="border-radius: 8px;">
                                                         <option>Newelec</option>
@@ -561,13 +558,13 @@
                                                 </div>
                                                 <div class="col-sm-4 pl-0">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Function</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Function</label>
                                                     <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Electrician" style= "color: #200E32; box-sizing: border-box;border-radius: 8px;background-color: transparent;">
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-4 pl-0">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Department</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Department</label>
                                                     <select class="form-control bg-transparent fs-14 h-35 pd-sel" style="border-radius: 8px;">
                                                         <option>Electrical</option>
                                                     </select>
@@ -575,7 +572,7 @@
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Role</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Role</label>
                                                     <br>
                                                     <select class="form-control bg-transparent pd-sel fs-14 h-35" style="border-radius: 8px;">
                                                         <option>Manager</option>
@@ -584,7 +581,7 @@
                                                 </div>
                                                 <div class="col-sm-4 pl-0">
                                                     <div class="mb-3">
-                                                    <label for="exampleFormControlInput1" class="form-label tc-grey">Report to</label>
+                                                    <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Report to</label>
                                                     <select class="form-control bg-transparent fs-14 h-35 pd-sel" style="border-radius: 8px;">
                                                         <option>Stephen M.Villato</option>
                                                     </select>
@@ -613,8 +610,8 @@
                         <div class="container-fluid pl-5 pt-4">
                           <div class="fs-17 fw-500"> Edit Profile </div>
                           <div class="row">
-                            <div class="col-sm-3 m-3">
-                              <div class="ml-4"
+                            <div class="col-sm-3 m-3 mt-4">
+                              <div class="ml-4 img-90"
                                 style="width: 123px; height: 123px; border-radius: 50%; background-repeat: no-repeat; background-size: 100%; background-image: url('Group\ 2631.png'); position: relative;">
                                 <button class="btn-circle border-0"
                                   style="background-color: #615EFF; width: 28px; height: 28px; border-radius: 50%; bottom:0px; right:16px; position:absolute;">
@@ -625,11 +622,11 @@
                           </div>
                           <div class="row fs-14">
                             <div class="col-sm-6">
-                              <form id="myForm">
+                              <form id="myForm" class="mt-3">
                                 <div class="row">
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">First name</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">First name</label>
                                       <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Christian" style= "color: #200E32;
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -638,7 +635,7 @@
                                   </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Last name</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Last name</label>
                                       <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Collin" style= "color: #200E32; 
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -647,7 +644,7 @@
                                   </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Acronym</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Acronym</label>
                                       <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="CCN" style= "color: #200E32; 
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -656,7 +653,7 @@
                                   </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label class="form-label tc-grey">Date of birth</label>
+                                      <label class="form-label tc-grey mb-3">Date of birth</label>
                                       <input type="date" class="form-control fs-14 h-35 pd-inp" value="" style= "color: #200E32;
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -666,7 +663,7 @@
                                   <div class="col-sm-6" style="display: flex;">
                                     <div style="width: 30%;">
                                       <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label tc-grey">Phone</label>
+                                        <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Phone</label>
                                         <select class="form-control bg-transparent fs-14 pd-sel" style="border-radius: 8px; height:35px; min-width: max-content;">
                                           <option>+35</option>
                                         </select>
@@ -675,7 +672,7 @@
                                     &nbsp;&nbsp;&nbsp;&nbsp;
                                     <div>
                                       <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label"> &nbsp;</label>
+                                        <label for="exampleFormControlInput1" class="form-label mb-3"> &nbsp;</label>
                                         <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="0 101 01 01" style= "color: #200E32; 
                     box-sizing: border-box;
                     border-radius: 8px;
@@ -685,7 +682,7 @@
                                   </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Email</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Email</label>
                                       <input type="email" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1"
                                         placeholder="Doant.Mailhot@beneo.com" style=" 
                   box-sizing: border-box;
@@ -698,7 +695,7 @@
                                 <div class="row">
                                   <div class="col-sm-4">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Company</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Company</label>
                                       <br>
                                       <select class="form-control bg-transparent fs-14 pd-sel h-35" style="border-radius: 8px;">
                                         <option>Newelec</option>
@@ -707,7 +704,7 @@
                                   </div>
                                   <div class="col-sm-4 pl-0">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Function</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Function</label>
                                       <input type="text" class="form-control fs-14 h-35 pd-inp" id="exampleFormControlInput1" value="Electrician" style= "color: #200E32; 
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -716,7 +713,7 @@
                                   </div>
                                   <div class="col-sm-4 pl-0">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Department</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Department</label>
                                       <select class="form-control bg-transparent fs-14 h-35 pd-sel" style="border-radius: 8px;">
                                         <option>Electrical</option>
                                       </select>
@@ -724,7 +721,7 @@
                                   </div>
                                   <div class="col-sm-4">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Role</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Role</label>
                                       <br>
                                       <select class="form-control bg-transparent pd-sel fs-14 h-35" style="border-radius: 8px;">
                                         <option>Manager</option>
@@ -733,7 +730,7 @@
                                   </div>
                                   <div class="col-sm-4 pl-0">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Report to</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Report to</label>
                                       <select class="form-control bg-transparent fs-14 h-35 pd-sel" style="border-radius: 8px;">
                                         <option>Stephen M.Villato</option>
                                       </select>
@@ -745,7 +742,7 @@
                                 <div class="row">
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Current Password</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Current Password</label>
                                       <input name="pw" class="form-control stylishPassword fs-14 h-35 pd-inp" type="text" style= "color: #200E32; 
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -757,7 +754,7 @@
                                   <div class="col-sm-6"> </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">New Password</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">New Password</label>
                                       <input name="pw" class="form-control stylishPassword fs-14 h-35 pd-inp" type="text" style= "color: #200E32;
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -769,7 +766,7 @@
                                   <div class="col-sm-6"> </div>
                                   <div class="col-sm-6">
                                     <div class="mb-3">
-                                      <label for="exampleFormControlInput1" class="form-label tc-grey">Repeat your password</label>
+                                      <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">Repeat your password</label>
                                       <input name="pw" class="form-control stylishPassword fs-14 h-35 pd-inp" type="text" style= "color: #200E32;
                   box-sizing: border-box;
                   border-radius: 8px;
@@ -787,8 +784,8 @@
                                 </div>
                               </form>
                             </div>
-                            <div class="col-sm-6">
-                              <label for="exampleFormControlInput1" class="form-label ml-3 tc-grey">Signature</label>
+                            <div class="col-sm-6 mt-3">
+                              <label for="exampleFormControlInput1" class="form-label ml-3 tc-grey  mb-3">Signature</label>
                               <div class="container-fluid">
                                 <div class="drag-drop1 mr-4 navbar p-0 set3" style="height: 180px;">
                                     <div class="mx-auto my-auto text-center">
@@ -806,7 +803,7 @@
                               <div class="row">
                                 <div class="col-sm-6 ml-3">
                                   <div class="pt-4">
-                                    <div class="drag-drop1 text-center p-2" style="height: 127px; width:90%;"> 
+                                    <div class="drag-drop2 text-center p-2" style="height: 127px; width:90%;"> 
                                         <input class="checkbox checkbox-primary float-left" type="checkbox" value="" checked>
                                         <br />
                                         <div style="height: 80%; width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -818,7 +815,7 @@
                               </div>
               
                               <div class="row ml-3 mt-4">
-                                <label for="exampleFormControlInput1" class="form-label tc-grey">Code PIN</label>
+                                <label for="exampleFormControlInput1" class="form-label tc-grey mb-3">CODE PIN</label>
                                   <div class="col-sm-12 p-0">
                                     <div class="row p-0 m-0">
                                       <div class="col-sm-4 pl-0">
@@ -830,7 +827,7 @@
                                         <input class="hiddenPassword" type="hidden">
                                       </div>
                                       <div class="col-sm-4 pl-0">
-                                        <button class="btn info pd-inp fs-11" type="button">SHOW your PIN CODE</button>
+                                        <button class="btn info pd-inp fs-11" type="button">SHOW PIN CODE</button>
                                       </div>
                                     </div>
                                   </div>

@@ -3,16 +3,10 @@
     font-style: normal;
 }
 
-
 .nav-pills .nav-link.active {
     background-color: #ffffff !important;
 }
 
-.side-style {
-    border-right: 1px solid rgba(209, 209, 209, 0.5); 
-    width: 21.2%; 
-    padding-left: 25px;
-}
 #tabsJustified li {
     margin-top: 3px;
 }
@@ -21,9 +15,7 @@
 }
 #tabsJustified li .cat.active {
     background: #615EFF !important;
-    min-width:max-content !important;
-    max-width: max-content !important;
-    padding-right: 50px !important;
+    height: 49px !important;
     border-radius: 10px !important;
 }
 #tabsJustified1 li .sub-cat.active, #tabsJustified2 li .sub-cat-sub.active, #tabsJustified3 li .sub-cat-sub.active {
@@ -135,6 +127,10 @@
 
 .fs-12 {
     font-size: 12px;
+    line-height: 14px;
+}
+.fs-12-1 {
+    font-size: 15px;
     line-height: 14px;
 }
 
@@ -720,6 +716,11 @@ input:checked + .slider:before {
         width: 30px !important;
     }
 
+    .img-90{
+        height: 90px !important;
+        width: 90px !important;
+    }
+
     .p-3 {
         padding: 10px !important;
     }
@@ -732,6 +733,11 @@ input:checked + .slider:before {
         font-size: 09px;
         line-height: 11px;
     }    
+
+    .fs-12-1 {
+        font-size: 09px;
+        line-height: 11px;
+    }
 
     .fs-14 {
         font-size: 11px;
@@ -756,7 +762,25 @@ input:checked + .slider:before {
     }
 
     .set4{
-        padding-right: 0 !important;
+        padding-right: 12px !important;
+    }
+
+    .bton{
+        width: 75px !important;
+        height: 35px !important;
+        background: #615EFF;
+        color: #200E32;
+        border-radius:9px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+
+    .drag-drop1{
+        height: 127px !important;
+    }
+
+    .drag-drop2{
+        height: 90px !important;
     }
 
 
@@ -786,6 +810,13 @@ input:checked + .slider:before {
         border-radius: 8px;
         position: relative;
     }
+    .drag-drop2 {
+        background: transparent;
+        border: 1px solid rgba(196, 196, 196, 0.53);
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+    }
     
     .btoon{
         border: 2px solid black;
@@ -803,5 +834,6 @@ input:checked + .slider:before {
         display:inline-block;
         height:40px;
         width:100%;
+        background-color: transparent;
     }
     
