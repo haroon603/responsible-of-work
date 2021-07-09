@@ -7,6 +7,11 @@
     background-color: #ffffff !important;
 }
 
+.date-range{
+    height: 54px !important;
+    background-color: white;
+}
+
 #tabsJustified li {
     margin-top: 3px;
 }
@@ -642,11 +647,18 @@ input:checked + .slider:before {
     }
     #tabsJustified li .cat.active {
         padding-right: 15px !important;
+        height: 40px !important;
     }
     #tabsJustified li {
         margin-left: 0px;
         margin-top: 05px;
     }
+
+    .date-range{
+        height: 40px !important;
+        background-color: white;
+    }
+    
 
     .checkbox-primary {
         width: 14.5px !important;
