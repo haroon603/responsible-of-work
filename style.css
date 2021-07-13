@@ -658,6 +658,10 @@ input:checked + .slider:before {
         height: 40px !important;
         background-color: white;
     }
+
+    .p-t{
+        padding-top: 3px !important;
+    }
     
 
     .checkbox-primary {
