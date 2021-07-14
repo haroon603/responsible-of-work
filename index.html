@@ -93,6 +93,20 @@
                                 &nbsp;&nbsp;<span class="fs-12-1">Workers</span>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="" id="edit-profile1" data-toggle="tab" class="nav-link small active cat text-font-normal">
+                                <img src="Profile.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="Profile.png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;<span class="fs-12-1">Edit Profile</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" id="logout" data-toggle="tab" class="nav-link small cat text-font-normal">
+                                <img src="Logout.png" style="width: 18px; height: 18px; display: none;" class="white-image" />
+                                <img src="Logout.png" style="width: 18px; height: 18px;" class="black-image" />
+                                &nbsp;&nbsp;<span class="fs-12-1" style="color: #E51D1D;">Se deconnecter</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
@@ -451,11 +465,11 @@
 
                     <div id="profile">
                        
-                        <div class="container-fluid pl-4">
+                        <div class="container-fluid">
                           
                             <div class="row fs-14">
 
-                                <div class="col-sm-12" style="border-bottom:1px solid rgba(209, 209, 209, 0.5); height: 17px;">
+                                <div class="col-sm-12 p-0" style="border-bottom:1px solid rgba(209, 209, 209, 0.5); height: 17px;">
 
                                 </div>
 
@@ -856,6 +870,8 @@
             $(document).ready(function(){
                         $("#profile").hide();
                         $("#profile1").hide();
+                        $("#edit-profile1").hide();
+                        $("#logout").hide();
                         $("#permit").show(200);
 
 
@@ -871,8 +887,12 @@
                 });
                 $("#move").click(function(){
                     $("#permit").hide();
-                    $("#profile1").hide();
                     $("#profile").hide();
+                    $("#edit-profile1").show();
+                    $("#logout").show();
+                    $("#permit-link").hide();
+                    $("#workers-link").hide();
+                    $("#observation-link").hide();
                     $("#profile1").show(200);
                 });
             });
